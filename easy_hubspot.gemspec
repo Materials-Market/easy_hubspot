@@ -32,7 +32,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   # dependencies
-  spec.add_dependency 'httparty', '~> 0.21.0'
+  spec.add_dependency 'httparty', '>= 0.24.0'
 
   # development dependencies
   spec.add_development_dependency 'bundler', '~> 2.0'
